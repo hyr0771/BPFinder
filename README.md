@@ -38,7 +38,7 @@ And the Search results are in "resultDirectory" which is specified by user in "c
 | targetCompound | Target compound in KEGG format | Required |
 | k | Number of the candidate linear pathways | 2000 |
 | numberOfTheMinimalAtomGroups | Number of the minimal atom groups transferred from source to target compound | 2 |
-| mergingStrategy | Merging rule for branched compound:overlapping,non-overlapping,default. The default merging strategy means that BPFinder will first search the branched pathways by non-overlapping rule, and then BPFinder will search the branched pathways by overlapping rule in the case of no branched pathways are returned by non-overlapping rule.| default |
+| mergingStrategy | Three merging rules for branched compound:**overlapping,non-overlapping,default**. The default merging strategy means that BPFinder will first search the branched pathways by non-overlapping rule, and then BPFinder will search the branched pathways by overlapping rule in the case of no branched pathways are returned by non-overlapping rule.| default |
 | aSf | aSf is a weight parameter for BPFinder, which is used to adjust the relative weights of Gibbs free energy of reaction when ranking the resulting pathways. | 0.1 |
 | aT | aT is a weight parameter for BPFinder, which is used to adjust the relative weights of conserved atom groups when ranking the resulting pathways. | 0.2 |
 | aS | aS is a weight parameter for BPFinder, which is used to adjust the relative weights of compound similarity when ranking the resulting pathways. | 0.1 |
