@@ -27,7 +27,7 @@ BPFinder program is packaged as a JAR bundle called BPFinder.jar. To provide eas
 
 **the directory of configure file** is the directory of the configure file.
 
-For example: ```java -jar D:\\BPFinder.jar D:\\configure.txt ```
+For example: ```java -jar D:\\BPFinder.jar D:\\config.txt ```
 And the Search results are in "resultDirectory" which is specified by user in "config.txt".
 
 # Running parameters
