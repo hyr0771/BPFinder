@@ -43,8 +43,8 @@ And the Search results are in "resultDirectory" which is specified by user in "c
 | aT | aT is a weight parameter for BPFinder, which is used to adjust the relative weights of conserved atom groups when ranking the resulting pathways. | 0.2 |
 | aS | aS is a weight parameter for BPFinder, which is used to adjust the relative weights of compound similarity when ranking the resulting pathways. | 0.1 |
 | aP | aP is a weight parameter for BPFinder, which is used to adjust the relative weights of the branched compounds when ranking the resulting pathways.| 0.8 |
-| graphVizDirectory | The directory of graphViz "dot.exe" file, users should first install graphViz. User can find the file dot.exe in the setup directory "bin" of graphViz.| D:\\graphviz\\bin\\dot.exe |
-| resultDirectory | The directory of searching results, users can find the running results of the program in this directory. | D:\\results\\ |
+| graphVizDirectory | The directory of graphViz "dot.exe" file. User should first install graphViz and you can find the file dot.exe in the setup directory "bin" of your graphViz. The file dot.exe can also be found along with BPFinder.jar here.  | D:\\graphviz\\bin\\dot.exe |
+| resultDirectory | The directory of searching results, users can find the resulting pathway files in this directory. The resulting pathways can be visualized by graphViz, and user can use graphViz to open resulting pathway file to see the visualization of resulting pathways.    | D:\\results\\ |
 
 
 
